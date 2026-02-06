@@ -1,0 +1,79 @@
+.containerTelaPerfil {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  article {
+    border: solid #EFEEEA;
+    border-radius: 16px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img {
+      height: 30vh;
+      border-radius: 100%;
+      border: solid #00AAFF 5px;
+    }
+  }
+}
+
+.cardInfo {
+  border: solid green;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40vh;
+
+  h2 {
+    font-size: 1.85rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #278733;
+  }
+
+  .paragrafoSobreMim {
+    text-align: center;
+    width: 80%;
+  }
+
+
+
+}
+
+address {
+ // border: solid red;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+
+  p {
+    font-size: 0.85rem;
+  }
+}
+
+.listaInteresses {
+  border: solid red;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+
+  li {
+    color: #278733;
+    font-size: 0.82rem;
+    font-weight: 600;
+
+    background-color: #D4E7D6;
+    padding: 0.8rem;
+    border-radius: 10px;
+  }
+
+}
+

@@ -1,0 +1,43 @@
+.navBar {
+  background-color: #205691;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+    }
+
+    a {
+      color: #ffffff;
+      font-size: 1.7rem;
+    }
+
+
+    .imgPerfil {
+      height: 13vh;
+      border-radius: 100%;
+      border: solid #00AAFF 2px;
+    }
+}
+
+// Vai valer em telas que tenham a largura entre 201px e 500px 
+@media (min-width: 201px) and (max-width: 500px) {
+   .navBar {
+      
+      a {
+        font-size: 0.8rem;
+      }
+
+      img {
+        height: 4vh;
+      }
+
+      .imgPerfil {
+        height: 6vh;
+      }
+   }
+}
