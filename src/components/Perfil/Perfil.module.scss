@@ -13,7 +13,7 @@
     align-items: center;
 
     img {
-      height: 30vh;
+      height: 40vh;
       border-radius: 100%;
       border: solid #00AAFF 5px;
     }
@@ -21,7 +21,6 @@
 }
 
 .cardInfo {
-  border: solid green;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -49,7 +48,6 @@
 }
 
 address {
- // border: solid red;
   display: flex;
   justify-content: space-between;
   width: 60%;
@@ -60,7 +58,6 @@ address {
 }
 
 .listaInteresses {
-  border: solid red;
   width: 70%;
   display: flex;
   justify-content: space-evenly;
