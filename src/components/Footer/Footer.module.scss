@@ -2,4 +2,27 @@ footer {
     height: 20vh;
     border: solid purple;
     background-color: #205691;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 16%;
+        color: #ffffff;
+    }
+
+    p {
+        color: #ffffff;
+        width: 38%;
+        text-align: center;
+    }
+
+    nav {
+        width: 15%;
+        display: flex;
+        justify-content: space-between;
+    }
 }
