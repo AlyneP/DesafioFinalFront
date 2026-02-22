@@ -4,20 +4,20 @@
    justify-content: space-evenly;
 
    div {
-    border: solid red;
-    height: 40vh;
+    height: 70vh;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 38%;
-    color: #205691
+    width: 90%;
+    color: #205691;
 
     h1 {
-      font-size: 5.5rem;
+      font-size: 5rem;
+      
     }
 
     p {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
 
    }
