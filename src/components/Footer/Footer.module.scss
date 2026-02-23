@@ -25,3 +25,35 @@ footer {
         justify-content: space-between;
     }
 }
+
+@media (min-width: 201px) and (max-width: 500px) {
+    
+    footer {
+        height: 30vh;
+        display: flex;
+        flex-direction: column-reverse;
+
+        div {
+        //  border: solid green;
+          width: 40%;
+
+          img {
+            width: 30%;
+          }
+        }
+
+        p {
+          font-size: 0.7rem;
+          width: 90%;
+        }
+
+        nav {
+         // border: solid red;
+          width: 60%;
+
+          img {
+            width: 15%;
+          }
+        }
+    }
+}

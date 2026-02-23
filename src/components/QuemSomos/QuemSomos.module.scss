@@ -28,3 +28,29 @@
         font-size: 1.2rem;
     }
 }
+
+@media (min-width: 201px) and (max-width: 500px) {
+    .containerQuemSomos {
+        background-image: none;
+        height: 85vh;
+    }
+
+    .textoQuemSomos {
+       // border: solid red;
+        width: 100%;
+        text-align: center;
+        height: 80vh;
+
+        h2 {
+            text-align: center;
+          //  border: solid purple;
+            width: 100%;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+}

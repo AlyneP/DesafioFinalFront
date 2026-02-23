@@ -1,5 +1,5 @@
 .containerTelaPerfil {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,9 +42,6 @@
     text-align: center;
     width: 80%;
   }
-
-
-
 }
 
 address {
@@ -74,3 +71,68 @@ address {
 
 }
 
+@media (min-width: 201px) and (max-width: 500px) {
+
+    .containerTelaPerfil {
+      
+
+      article {
+      // border: solid purple;
+       display: flex;
+       flex-direction: column;
+       height: 90vh;
+      
+      img {
+        height: 30vh;
+        border-radius: 100%;
+        border: solid #00AAFF 5px;
+      }
+    }
+  }
+
+  .cardInfo {
+  //  border: solid red;
+    width: 100%;
+    height: 60vh;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
+
+    .paragrafoSobreMim {
+       font-size: 1rem;
+    }
+  }
+ 
+  address {
+   // border: solid green;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .listaInteresses {
+   // border: solid blue;
+    width: 100%;
+
+    li {
+    width: 100%;
+    height: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    color: #278733;
+    font-size: 0.5rem;
+
+    background-color: #D4E7D6;
+    padding: 0.6rem;
+    border-radius: 50px;
+    }
+  }
+
+}

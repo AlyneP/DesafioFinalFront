@@ -27,9 +27,12 @@
 // Vai valer em telas que tenham a largura entre 201px e 500px 
 @media (min-width: 201px) and (max-width: 500px) {
    .navBar {
-      
+    //  border: solid #ff0000;
+      height: 10vh;
+
       a {
-        font-size: 0.8rem;
+     //   border: solid green;
+        font-size: 0.7rem;
       }
 
       img {

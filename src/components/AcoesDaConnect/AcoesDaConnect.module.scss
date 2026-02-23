@@ -58,3 +58,52 @@
         cursor: pointer;
     }
 }
+
+@media (min-width: 201px) and (max-width: 500px) {
+    .boxTituloAcoes {
+       // border: solid red;
+        height: 30vh;
+        text-align: center;
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+            width: 80%;
+    }
+}
+
+    .containerCardsDeAcoes {
+      //  border: solid green;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cardsDeAcoes {
+       // border: solid purple;
+        width: 90%;
+        height: 60vh;
+
+        h2 {
+            font-size: 1.9rem;
+        }
+
+        p {
+          //  border: solid red;
+            width: 90%;
+            font-size: 1rem;
+        }
+        
+        button {
+            font-size: 1.2rem;
+            padding: 1rem 2rem;
+    
+        }
+    
+        
+    }
+
+}
