@@ -17,25 +17,24 @@
     }
 }
 
-.containerCardDeAcoes {
+.containerCardsDeAcoes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: solid green;
 }
 
 .cardsDeAcoes {
-    border: solid purple;
-    width: 26%;
-    height: 45vh;
+    //border: solid purple;
+    width: 30%;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: 1rem;
+    margin: 1.2rem;
 
     img {
-        height: 15vh;
+        height: 20vh;
 
     }
 
